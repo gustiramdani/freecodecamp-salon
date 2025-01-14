@@ -95,3 +95,9 @@ __vsc_prompt_cmd_original
 ./salon.sh
 ./salon.sh
 ./salon.sh
+pg_dump -cC --inserts -U freecodecamp salon > salon.sql
+ls --color=auto
+git remote -v
+git remote add salongus https://github.com/gustiramdani/freecodecamp-salon.git
+git remote -v
+git add .
